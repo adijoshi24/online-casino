@@ -1,0 +1,41 @@
+- Layout consists of three parts: header, content and footer
+
+- Header Consists of
+  Done      - Company logo (or developer's name) on the left and balance + avatar on the right
+  Done      - Balance displays real balance in format $9.99 and is updated after each game.
+  Done      - Depending on the state user sees
+  Done      - Login button which opens a popup with form (email/password)
+  Done      - Avatar and logout button
+  Done      - User has to be persistent i.e. you should keep data (name, balance) in local storage
+  Done      - User can start playing as a guest but should be able to log in at any time
+  Done      - Logout
+
+- Content
+  Done      - Has table with game results.
+  Done      - Columns are id, slot 1-3, time.
+  Done      - Id and time are sortable both ways
+  Done      - Displays 10 rows per page
+  Done      - There is a button that starts a game i.e. opens a popup
+  Done      - Popup has 3 slots in the content part and 3 buttons in the button pane
+  Done      - When the user presses the first button - random symbols ♠, ♥, ♦, ♣ are displayed in slots
+  Done      - Each spin costs $2 from the balance
+  Done      - Thee different symbols XYZ does nothing
+  Done      - Each pair XXY XYX YXX adds $0.5 to the balance
+  Done      - Each three in row XXX adds $2 to the balance
+  Done      - ♠♠♠ adds $5 to the balance
+  Done      - User can't play in credit, so when he runs out of money the game is over
+  Done      - The second button is meant for debugging. It fakes ♠♠♠ spin
+  Done      - After each spin results are added to the table.
+  Done      - Third button closes the popup
+
+Done    - Footer
+  Done      - Has your copyright
+
+
+
+- Bonus: add fancy animation to spin
+
+- Bonus: write a single test to check popup state
+
+- Bonus: deploy the app to Heroku or any other service
+
