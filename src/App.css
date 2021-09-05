@@ -13,9 +13,9 @@
   --wheel-color: #25212f;
   --neutral-color: white;
   --PI: 3.14159265358979;
-  --nb-item: 0;
-  --item-nb: 0;
-  --selected-item: 0;
+  --nb-item: 0.01;
+  --item-nb: 0.01;
+  --selected-item: 0.01;
   --nb-turn: 5;
   --spinning-duration: 4s;
   --reset-duration: 0.25s;
